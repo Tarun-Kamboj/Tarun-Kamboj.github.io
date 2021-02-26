@@ -526,9 +526,9 @@ var jarallaxPlugin = function() {
 	});
 	jarallax(document.querySelectorAll('.jarallax-video'), {
     speed: 0.2,
-    videoSrc: 'https://www.youtube.com/watch?v=R9mXtzn8meE',
+    videoSrc: 'https://www.youtube.com/watch?v=79gwNTZL5J4',
     // blocks - https://www.youtube.com/watch?v=JdHYi7Nbmjg
-    // sheets - https://www.youtube.com/watch?v=R9mXtzn8meE
+    // sheets - https://www.youtube.com/watch?v=79gwNTZL5J4
     videoStartTime: 10,
     videoEndTime: 80,
 	});
