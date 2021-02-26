@@ -1424,11 +1424,19 @@ figure.dotted-bg:before {
   outline: none;
 }
 
-.testimonial-slider .owl-nav .owl-prev, .single-slider .owl-nav .owl-prev {
+.single-slider .owl-nav .owl-prev {
+  left: -100px;
+}
+
+.single-slider .owl-nav .owl-next {
+  right: -100px;
+}
+
+.testimonial-slider .owl-nav .owl-prev{
   left: 60px;
 }
 
-.testimonial-slider .owl-nav .owl-next, .single-slider .owl-nav .owl-next {
+.testimonial-slider .owl-nav .owl-next{
   right: 60px;
 }
 
@@ -1436,7 +1444,7 @@ figure.dotted-bg:before {
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 50px;
+  bottom: -50px;
 }
 
 .testimonial-slider .owl-dots .owl-dot, .single-slider .owl-dots .owl-dot {
@@ -1481,14 +1489,14 @@ figure.dotted-bg:before {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.2) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
 .single-slider .owl-prev:hover, .single-slider .owl-next:hover {
-  background: rgba(0, 0, 0, 0.9) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
 }
 
 .single-slider .owl-prev span, .single-slider .owl-next span {

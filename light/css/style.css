@@ -1463,11 +1463,19 @@ figure.dotted-bg:before {
   outline: none;
 }
 
-.testimonial-slider .owl-nav .owl-prev, .single-slider .owl-nav .owl-prev {
+.single-slider .owl-nav .owl-prev {
+  left: -100px;
+}
+
+.single-slider .owl-nav .owl-next {
+  right: -100px;
+}
+
+.testimonial-slider .owl-nav .owl-prev{
   left: 60px;
 }
 
-.testimonial-slider .owl-nav .owl-next, .single-slider .owl-nav .owl-next {
+.testimonial-slider .owl-nav .owl-next{
   right: 60px;
 }
 
